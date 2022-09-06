@@ -1,6 +1,10 @@
 class Reading:
     # TODO: change this to represent whatever information is needed
-    pass
+    def __init__(self, time, name, value) -> None:
+        self.time = time
+        self.name = name
+        self.value = value
+
 
 
 # This is a fake database which stores data in-memory while the process is running
